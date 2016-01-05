@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66F717AC1B91BD4E00DDFAFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 66F717AB1B91BD4E00DDFAFD /* main.c */; };
+		60D379B91C337FDC00801E0A /* invert.c in Sources */ = {isa = PBXBuildFile; fileRef = 60D379B81C337FDC00801E0A /* invert.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60D379B81C337FDC00801E0A /* invert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = invert.c; sourceTree = "<group>"; };
+		663B81401B93F52E00541BC3 /* prime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prime.c; sourceTree = "<group>"; };
+		663B81431B93F6D800541BC3 /* commonMultiple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commonMultiple.c; sourceTree = "<group>"; };
 		66F717A81B91BD4E00DDFAFD /* C_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F717AB1B91BD4E00DDFAFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60D379B71C337FA300801E0A /* 翻转 */ = {
+			isa = PBXGroup;
+			children = (
+				60D379B81C337FDC00801E0A /* invert.c */,
+			);
+			name = "翻转";
+			sourceTree = "<group>";
+		};
+		663B81421B93F53300541BC3 /* 求素数的个数 */ = {
+			isa = PBXGroup;
+			children = (
+				663B81401B93F52E00541BC3 /* prime.c */,
+			);
+			name = "求素数的个数";
+			sourceTree = "<group>";
+		};
+		663B81451B93F6DA00541BC3 /* 最小公倍数 */ = {
+			isa = PBXGroup;
+			children = (
+				663B81431B93F6D800541BC3 /* commonMultiple.c */,
+			);
+			name = "最小公倍数";
+			sourceTree = "<group>";
+		};
 		66F7179F1B91BD4E00DDFAFD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				66F717AB1B91BD4E00DDFAFD /* main.c */,
+				663B81421B93F53300541BC3 /* 求素数的个数 */,
+				663B81451B93F6DA00541BC3 /* 最小公倍数 */,
+				60D379B71C337FA300801E0A /* 翻转 */,
 			);
 			path = C_Algorithm;
 			sourceTree = "<group>";
@@ -118,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F717AC1B91BD4E00DDFAFD /* main.c in Sources */,
+				60D379B91C337FDC00801E0A /* invert.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +265,7 @@
 				66F717B11B91BD4E00DDFAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
